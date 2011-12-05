@@ -1,0 +1,49 @@
+-- WP Plugin Setup --
+
+Determine unique and descriptive plugin name
+	- Is the name descriptive or your plugins function?
+	- Have you verified the plugin doesn't exist in wp plugin directory?
+
+Set a unique plugin prefix	
+	-Set a unique prefix to avoid conflicts
+
+ Create your plugin folder structure. 
+	- php directory, javascript directory, css directory, images directory
+	
+Create Default plguin files
+	- create primary file name the same as your plugin folder.
+	- create the uninstall.php file in root for uninstall procedures.
+	
+Create Plugins Header Code.
+	- Set your plugin name a you want it displayed
+	- Add a detailed description about plugins prupose
+	- set the proper version for plugin
+	- Verifgy both plugin URL and Author URI values are set
+	- include a license for your plugin
+	- Place the license code directly bleow your plugin heaer
+	
+Create your plugins activation function
+	- does your plugin require a specific version of wordpress or higher to function?
+	- does your plugin require default options to be set when activated.
+	- create custom tables on activation
+
+Creeate Plungs deactivation function
+	- Does your plugin require something to hapen when it is deactivated?
+
+Create your plugins uninstall script
+	- create an uninstall.php file in root 
+	- delete all plugin info and custom db tables on ininstall.
+	
+File References 
+	- Use the poper directory constants and functions to determine paths within 
+	wordpress and your plugin.
+
+-----
+
+-- Create Admin main menus / submenus (only available user roles capabilites)
+-- Create Custom Tables for Plugin
+-- Drop Custom Tables
+-- create admin forms / tables for different pages
+
+-- members area forms / tables
+-- shortcodes
